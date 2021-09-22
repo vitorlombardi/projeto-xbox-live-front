@@ -1,0 +1,37 @@
+.card-titulo{
+    padding-top: 2rem;
+}
+
+.cards-perfils{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.card-perfils{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.card-perfils:hover{
+    box-shadow: 0 1px 6px rgb(255 255 255 / 28%);
+}
+
+.card-perfils:hover img{
+    border-color: white;
+}
+
+.card-perfils img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+

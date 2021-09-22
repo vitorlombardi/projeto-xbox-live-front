@@ -1,0 +1,29 @@
+.cards-admin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.card-admin {
+    background-color: #2222;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 60%);
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.card-admin:hover{
+    background-color: #aaaaaa;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 80%);
+    padding: 1rem;
+}
+
+.card-admin img{
+    height: 175px;
+    width: 190px;
+}

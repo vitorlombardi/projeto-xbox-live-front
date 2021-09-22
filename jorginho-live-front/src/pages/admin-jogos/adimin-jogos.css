@@ -1,0 +1,54 @@
+.bloco-tabela {
+  padding-top: 2rem;
+}
+
+.tabela {
+  border-spacing: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.tabela-img{
+    padding-top: 1rem;
+}
+
+.tabela-botao{
+    padding-top: 0;
+    padding: 1rem;
+}
+
+
+.tabela-nome{
+    padding: 1rem;
+}
+
+.tabela-imagem{
+    padding: 1rem;
+}
+
+.tabela_header{
+    padding: 1.4rem;
+}
+
+.tabela ul li {
+    background: #2222;
+    display: flex;
+    width: 8rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tabela_header ul {
+  font-weight: bold;
+ 
+}
+
+.tabela img {
+  max-width: 200px;
+  max-height: 100px;
+}

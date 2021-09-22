@@ -1,0 +1,18 @@
+.input-busca{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    padding-right: 1rem;
+}
+
+.input-search{
+    width: 25rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}

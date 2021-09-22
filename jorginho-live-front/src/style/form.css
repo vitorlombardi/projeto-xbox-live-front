@@ -1,0 +1,41 @@
+.form {
+  background-color: #222222;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  padding: 1rem;
+  color: white;
+}
+
+.form-corpo{
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-titulo span{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.form__input{
+    width: 20rem;
+    height: 1.5rem;
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-jogo{
+    align-items: center;
+    box-shadow:none;
+}

@@ -1,0 +1,69 @@
+.perfil {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card-perfil {
+  background-color: #2222;
+  border-radius: 0.5rem;
+  display: flex;
+  padding: 2rem;
+  min-width: 16rem;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card-perfil img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.perfil-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 2rem;
+  padding-top: 0;
+}
+
+.perfil-texto {
+  color: white;
+}
+
+.nome-perfil {
+  padding: 1rem;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+.botao {
+  padding: 1rem;
+}
+
+@media (max-width: 575px) {
+  .botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 345px) {
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

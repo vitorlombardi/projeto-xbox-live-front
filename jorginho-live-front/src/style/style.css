@@ -1,0 +1,17 @@
+body {
+  background:linear-gradient(45deg, #0C056D, #590D82, #B61AAE, #F25D9C);
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
+  background-position: absolute;
+}
+
+@media (max-width: 410px) {
+  body{
+    background-size: 180% 200%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
